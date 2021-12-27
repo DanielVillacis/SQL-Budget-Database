@@ -1,12 +1,12 @@
-// *************** SQL-Budget-Database ***************** //
+SQL-Budget-Database 
 Budget management database project using PostgreSQL.
 
-// *********** Description *********** //
+Description :
 Ce projet de session comporte sur la conception d’une base de données SQL représentant un système de contrôle budgétaire personnel. Ce système permet, principalement, à l’utilisateur d’ajouter ses revenus et contrôler ses dépenses en les catégorisant selon le type de transactions. Il permet également d’ajouter des comptes afin de contrôler les entrées et sorties de chaque type de compte (compte d’épargne ou compte-chèques par exemple). En contrôlant les transactions de forme quotidienne, nous pourrons réaliser des suivis budgétaires de forme mensuelle et de plus, faire des projections des habitudes de dépense personnelle. À long terme, il nous sera aussi possible de faire des observations statistiques sur notre historique de dépenses.
 Le système, étant un type de classeur, est destiné seulement à utilisation personnelle et potentiellement à une utilisation partagée, un couple par exemple. Ce système ne permet pas de faire des transactions sous forme officielle à des comptes bancaires, mais seulement de les enregistrer pour besoin personnel.
 
 
-// ************** Main description of the entities, functions and procedures of the code *************** //
+Main description of the entities, functions and procedures of the code :
 
 Entités
 1. CompteBancaire : Contiens les différents comptes bancaires d’un utilisateur et la description du compte.
